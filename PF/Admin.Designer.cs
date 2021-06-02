@@ -46,11 +46,12 @@ namespace PF
             this.btnclo = new System.Windows.Forms.Button();
             this.lbltil = new System.Windows.Forms.Label();
             this.pnconten = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblf = new System.Windows.Forms.Label();
             this.lblhor = new System.Windows.Forms.Label();
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.pnmenad.SuspendLayout();
             this.pnlog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -268,6 +269,7 @@ namespace PF
             // pnconten
             // 
             this.pnconten.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(221)))), ((int)(((byte)(191)))));
+            this.pnconten.Controls.Add(this.label3);
             this.pnconten.Controls.Add(this.label2);
             this.pnconten.Controls.Add(this.label1);
             this.pnconten.Controls.Add(this.lblf);
@@ -277,6 +279,15 @@ namespace PF
             this.pnconten.Name = "pnconten";
             this.pnconten.Size = new System.Drawing.Size(780, 390);
             this.pnconten.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(188, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(222, 18);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "HOLA LO EDITE YO ISAAC";
             // 
             // label1
             // 
@@ -313,14 +324,14 @@ namespace PF
             // 
             this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick_1);
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(188, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(222, 18);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "HOLA LO EDITE YO ISAAC";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(188, 100);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(278, 18);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "ESTE TAMBIEN FUE MODIFICADO";
             // 
             // Admin
             // 
@@ -372,5 +383,6 @@ namespace PF
         private System.Windows.Forms.Timer Timer1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
