@@ -49,6 +49,7 @@ namespace PF
             this.lblf = new System.Windows.Forms.Label();
             this.lblhor = new System.Windows.Forms.Label();
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.pnmenad.SuspendLayout();
             this.pnlog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -266,6 +267,7 @@ namespace PF
             // pnconten
             // 
             this.pnconten.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(221)))), ((int)(((byte)(191)))));
+            this.pnconten.Controls.Add(this.label1);
             this.pnconten.Controls.Add(this.lblf);
             this.pnconten.Controls.Add(this.lblhor);
             this.pnconten.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -299,6 +301,16 @@ namespace PF
             // Timer1
             // 
             this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(222, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(288, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "disculpa, como llego a Monterrey?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Admin
             // 
@@ -348,5 +360,6 @@ namespace PF
         private System.Windows.Forms.Label lblf;
         private System.Windows.Forms.Label lblhor;
         private System.Windows.Forms.Timer Timer1;
+        private System.Windows.Forms.Label label1;
     }
 }
